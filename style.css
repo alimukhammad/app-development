@@ -1,6 +1,21 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    color: magenta;
+}
+
+.shapeContainer{
+    width: 500px;
+    margin: 20px auto;
+
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
 .shapeDiv{
     width: 200px;
-    color: purple;
+    color: purple !important;
 }
 
 .square{
@@ -15,6 +30,7 @@
 
 .circle{
     width: 200px;
+    border-radius: 50%;
     background-color: crimson;
 }
 
