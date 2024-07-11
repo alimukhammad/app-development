@@ -1,0 +1,28 @@
+.shapeDiv{
+    width: 200px;
+    color: purple;
+}
+
+.square{
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.rectangle{
+    width: 400px;
+    background-color: olive;
+}
+
+.circle{
+    width: 200px;
+    background-color: crimson;
+}
+
+.square, .rectangle, .circle, .shapeDiv{
+    height: 200px;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    margin: 20px auto;
+}
