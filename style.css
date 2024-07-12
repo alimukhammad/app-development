@@ -42,3 +42,61 @@
     padding-top: 10%;
     margin: 20px auto;
 }
+
+/* ------------ */
+.header-container, .navMenu{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.header-container > div, .navMenu > div{
+    padding: 20px;
+}
+
+.header-container > div:nth-child(2){
+    margin-left: auto;
+}
+
+.headerNav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.navMenu{
+    display: none;
+}
+.navMenu > div:nth-child(2){
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.collapseMenu{
+    background-color: rgba(30,30,30,0.8);
+    padding: 20px;
+    display: none; /*hidden*/
+}
+
+.collapseMenu>div{
+    color: white;
+    padding: 20px 0px;
+}
+
+.collapseMenu>div:hover{
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .header-container{
+        display: none;
+    }
+    .navMenu{
+        display: flex;
+    }
+    
+}
