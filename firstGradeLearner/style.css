@@ -1,0 +1,115 @@
+.header-container, .navMenu{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.header-container > div, .navMenu > div{
+    padding: 20px;
+}
+
+.header-container > div:nth-child(2){
+    margin-left: auto;
+}
+
+.headerNav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 60px;
+}
+
+.navMenu{
+    display: none;
+}
+.navMenu > div:nth-child(2){
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.collapseMenu{
+    background-color: rgba(30,30,30,0.8);
+    padding: 20px;
+    display: none; /*hidden*/
+}
+
+.collapseMenu>div{
+    color: white;
+    padding: 20px 0px;
+}
+
+.collapseMenu>div:hover{
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* ---------Grid Compressed ---------------------------------------*/
+
+.grid-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.numberCompressed{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid black;
+    border-radius: 20%;
+    text-align: center;/* horizontally */
+    font-size: 50px;
+}
+.numberCompressed > img{
+    width: 700px;
+    height: 550px;
+    border-radius: 20%;
+    margin-bottom: 40px;
+}
+.numberCompressed:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.colorCompressed{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid black;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 50px;
+}
+.colorCompressed > img{
+    width: 700px;
+    height: 550px;
+    border-radius: 20%;
+    margin-bottom: 40px;
+}
+.colorCompressed:hover{
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+/* --------------------------------- Expand --------------------- */
+
+
+.numberExpand{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid black;
+    border-radius: 20%;
+    text-align: center;/* horizontally */
+    font-size: 50px;
+}
+
+.colorExpand{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid black;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 50px;
+}
+

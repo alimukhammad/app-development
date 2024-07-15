@@ -1,0 +1,85 @@
+.backBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#colorPick{grid-area: colorPick;}
+#red{grid-area: red;}
+#blue{grid-area: blue;}
+#green{grid-area: green;}
+#yellow{grid-area: yellow;}
+#purple{grid-area: purple;}
+#orange{grid-area: orange;}
+#pink{grid-area: pink;}
+#brown{grid-area: brown;}
+#black{grid-area: black;}
+#white{grid-area: white;}
+#gray{grid-area: gray;}
+
+
+.colorList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template: 
+        'colorPick red blue'
+        'green yellow purple'
+        'orange pink brown'
+        'black white gray';
+    grid-gap: 10px;
+    padding: 10px;
+    
+    background-color: antiquewhite;
+}
+
+.colorExpand >h2{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 100px;
+}
+
+.color:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    width: 100px;
+    height: 50px;
+
+}
