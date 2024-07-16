@@ -13,7 +13,7 @@ num1.addEventListener('click', function() {
     
     if(active) {
         this.textContent = '';
-        this.textContent = '1';
+        this.textContent = '<image src="../images/1.jpg" alt="1">';
     } else {    
         this.textContent = '1';
     }
