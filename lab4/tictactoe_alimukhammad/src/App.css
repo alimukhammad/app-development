@@ -2,6 +2,7 @@ h1.title{
   text-align: center;
   background-color: cadetblue;
   padding: 1em;
+  text-shadow: 1px 1px 1px black;
 }
 button.square{
   text-align: center;
@@ -11,4 +12,5 @@ button.square{
 
 div.boardcontainer{
   text-align: center;
+  
 }
